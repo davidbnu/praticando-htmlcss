@@ -1,0 +1,39 @@
+
+.principal {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__titulo {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.container__imagem {
+    margin-bottom: 2em;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    display: block;
+    font-weight: 400;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.container__botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin-bottom: 0,1em;
+}
+
+.container__aviso {
+    color: var(--cinza-escuro);
+    font-size: 12px;
+}
